@@ -7,11 +7,11 @@
 
 body
 {
-    background-size: 100%;
-    background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
-  background-image:url(./images/wallpapersden.com_forest-mountains-sunset-cool-weather-minimalism_7680x4320.jpg) ;
+  background: url(./images/wallpapersden.com_forest-mountains-sunset-cool-weather-minimalism_7680x4320.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden; 
 }
 
 div.widget
@@ -112,3 +112,10 @@ i{
     opacity: 0;
     z-index: -1;
 }
+
+/* html {
+    background: url(./images/wallpapersden.com_forest-mountains-sunset-cool-weather-minimalism_7680x4320.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  } */
